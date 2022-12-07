@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+    background-image: linear-gradient(180deg, aqua, aquamarine);
+}
+
+header{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #ccc;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+    min-height: 300px;
+    color: #fff;
+}
+
+h2{
+    padding: 10px;
+    text-align: center;
+}
+
+.naoIniciadoContainer{
+    background-color: #fb8b24;
+}
+
+#naoIniciado,
+#andamento,
+#concluido{
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+}
+
+.andamentoContainer{
+    background-color: #820263;
+}
+
+.concluidoContainer{
+    background-color: #04A777;
+}
+
+.inputContainer{
+    color: #000;
+    max-width: 200px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputContainer input{
+    border: none;
+    border-radius: 5px;
+}
+
+.inputContainer i{
+    cursor: pointer;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 1em;
+}
+
+.item{
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controlsContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.controlsContainer i{
+    margin-left: 5px;
+    cursor: pointer;
+}
